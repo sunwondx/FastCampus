@@ -43,7 +43,7 @@ jib {
         image = 'adoptopenjdk/openjdk11:alpine-jre'
     }
     to {
-        image = 'jungseonwon/jib-test'
+        image = '765595800769.dkr.ecr.ap-northeast-2.amazonaws.com/test'
         tags = ['1.0']
     }
     container {
